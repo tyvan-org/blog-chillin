@@ -1,9 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://tyvan.dev/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "My New Hugo Site 123123123"
+title = "Your Blog Name"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "DoIt"
@@ -16,9 +16,9 @@ theme = "DoIt"
   #  DoIt theme version
   version = "0.4.X"
   # website title
-  title = "My New Hugo Site"
+  title = "Your Blog Name"
   # site description
-  description = "This is My New Hugo Site 2"
+  description = "Welcome to my personal blog where I share thoughts on technology, development, and more"
   # site keywords
   keywords = ["Theme", "Hugo"]
   #  site default theme ("light", "dark", "black", "auto")
@@ -46,10 +46,10 @@ theme = "DoIt"
   license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   # Author config
   [params.author]
-    name = "xxxx"
-    email = ""
-    link = ""
-    avatar = ""
+    name = "Your Name"
+    email = "your.email@example.com"
+    link = "https://tyvan.dev"
+    avatar = "/images/avatar.webp"
     gravatarEmail = ""
   #  App icon config
   [params.app]
@@ -181,9 +181,9 @@ theme = "DoIt"
       # URL the avatar links to
       avatarLinkURL = ""
       #  title shown in home page (HTML format is supported)
-      title = ""
+      title = "Your Name"
       # subtitle shown in home page
-      subtitle = "This is My New Hugo Site 2"
+      subtitle = "Welcome to my personal blog where I share thoughts on technology, development, and more"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -201,12 +201,12 @@ theme = "DoIt"
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
+    GitHub = "your-github-username"
     Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Twitter = "your-twitter-username"
+    Instagram = "your-instagram-username"
+    Facebook = "your-facebook-username"
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -270,7 +270,7 @@ theme = "DoIt"
     Linktree = ""
     QQ = ""
     QQGroup = ""
-    Email = "xxxx@xxxx.com"
+    Email = "your.email@example.com"
     RSS = true # 
 
   #  Page config
@@ -756,13 +756,21 @@ theme = "DoIt"
     title = ""
     weight = 1
   [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 2
+  [[menu.main]]
     identifier = "tags"
     pre = ""
     post = ""
     name = "Tags"
     url = "/tags/"
     title = ""
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "categories"
     pre = ""
@@ -770,7 +778,7 @@ theme = "DoIt"
     name = "Categories"
     url = "/categories/"
     title = ""
-    weight = 3
+    weight = 4
 
 
 # Options for taxonomies
