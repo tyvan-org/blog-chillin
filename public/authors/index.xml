@@ -1,8 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Authors - Author - Your Blog Name</title>
-        <link>http://localhost:1313/authors/</link>
-        <description>Authors - Author - Your Blog Name</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>your.email@example.com (Your Name)</managingEditor>
-            <webMaster>your.email@example.com (Your Name)</webMaster><atom:link href="http://localhost:1313/authors/" rel="self" type="application/rss+xml" /></channel>
-</rss>
