@@ -2,6 +2,10 @@
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://guanyuno2.github.io/blog-chillin/"
 title: Ty Van
+
+# Force HTTPS for all URLs
+canonifyURLs: true
+relativeURLs: false
 copyright: "© [Ty Van](https://github.com/guanyuno2)"
 theme: [PaperMod]
 
