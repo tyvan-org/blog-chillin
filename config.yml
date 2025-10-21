@@ -4,8 +4,8 @@ baseURL: "https://guanyuno2.github.io/blog-chillin/"
 title: Ty Van
 
 # Force HTTPS for all URLs
-canonifyURLs: true
-relativeURLs: false
+# canonifyURLs: true
+# relativeURLs: false
 copyright: "© [Ty Van](https://github.com/guanyuno2)"
 theme: [PaperMod]
 
