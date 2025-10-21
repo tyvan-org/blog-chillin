@@ -3,6 +3,7 @@
 baseURL: "https://guanyuno2.github.io/blog-chillin/"
 title: Ty Van
 
+
 # Force HTTPS for all URLs
 # canonifyURLs: true
 # relativeURLs: false
