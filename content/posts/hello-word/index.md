@@ -1,7 +1,7 @@
 ---
 title: "Hello World - My First Post"
 date: 2024-01-15T10:00:00+07:00
-draft: false
+draft: true
 description: "A simple example post to test the Hugo PaperMod theme"
 tags: ["hugo", "blog", "example"]
 categories: ["general"]

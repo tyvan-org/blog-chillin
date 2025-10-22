@@ -7,6 +7,7 @@ summary: "Sample article showcasing basic code syntax and formatting for HTML el
 tags: ["markdown", "syntax", "code", "gist"]
 categories: ["themes", "syntax"]
 series: ["Themes Guide"]
+draft: true
 ShowToc: true
 TocOpen: true
 social:
