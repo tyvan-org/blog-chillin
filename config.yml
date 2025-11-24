@@ -45,7 +45,7 @@ languages:
           url: tags/
           weight: 10
         - name: CV
-          url: https://static.tyvan.dev/resume-update-1.pdf
+          url: https://static.tyvan.dev/resume.pdf
 
 
 outputs:
