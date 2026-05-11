@@ -46,6 +46,8 @@ languages:
           weight: 10
         - name: CV
           url: https://static.tyvan.dev/resume.pdf
+        - name: Hub
+          url: https://hub.tyvan.dev/
 
 
 outputs:
