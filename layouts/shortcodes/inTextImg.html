@@ -1,0 +1,6 @@
+{{- $url := .Get "url" -}}
+{{- $height := .Get "height" | default "1em" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- if $url -}}
+<img src="{{ $url | safeURL }}" alt="{{ $alt }}" style="display:inline-block;height:{{ $height | safeCSS }};vertical-align:text-bottom;">
+{{- end -}}
